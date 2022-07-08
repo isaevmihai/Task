@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container-fluid ">
+<div class="p-5 bg-dark text-white rounded-3 ">
+    <h1> Agenda Lilianei</h1>
+    
+    <hr class="my-5">
+    <p >Fereasca sfantu' sa nu faci ceva!</p>
+    <div class="container mt-3 w-50">
+        <div class="input-group">
+            <span class="input-group-text">De facut</span>
+            <input
+                id="newTask"
+                type="text"
+                class="form-control"
+                placeholder="Detaliaza te rog " />
+                
+            <button class="btn btn-primary" id="btnSubmit">Submit</button>
+        </div>
+</div>
+
+    </div>
+    <p id="message"></p>
+<div class="list-group-flush mt-3" id="tasks"></div>
+<button class="btn btn-danger btn-block mt-3" id="btnClear">
+    Sterge lista</button>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>   
+    <script src="./index.js"></script>
+</body>
+</html>
